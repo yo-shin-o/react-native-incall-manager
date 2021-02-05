@@ -108,7 +108,7 @@ RCT_EXPORT_MODULE(InCallManager)
         _forceSpeakerOn = 0;
         _recordPermission = nil;
         _cameraPermission = nil;
-        _media = @"audio";
+        _media = @"video";
 
         NSLog(@"RNInCallManager.init(): initialized");
     }
